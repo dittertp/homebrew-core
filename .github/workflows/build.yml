@@ -41,7 +41,7 @@ jobs:
  
   upload-bottles:
     if: "!contains(github.event.commits[0].message, '[skip ci]') && contains( github.event.pull_request.labels.*.name, 'build')"
-    needs: [build-catalina-bottles]
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v1
