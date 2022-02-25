@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.9
 
       - uses: actions/checkout@v1
 
@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.9
 
       - uses: actions/checkout@v1
 
@@ -75,7 +75,7 @@ jobs:
     steps:
       - uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.9
 
       - uses: actions/checkout@v2
         with:
